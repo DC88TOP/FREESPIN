@@ -1,0 +1,109 @@
+.outer-spin {
+  animation: outer 4s ease normal forwards;
+}
+
+.inner-spin {
+  animation: inner 4s ease normal forwards;
+}
+
+@keyframes outer {
+   0% {
+        transform: rotate(0deg);
+    }
+
+    90% {
+        transform: rotate(2746deg);
+    }
+
+    95% {
+        transform: rotate(2744deg);
+    }
+
+    100% {
+        transform: rotate(2745deg);
+    }
+}
+
+@keyframes inner {
+   0% {
+        transform: rotate(0deg);
+    }
+
+    90% {
+        transform: rotate(2836deg);
+    }
+
+    95% {
+        transform: rotate(2834deg);
+    }
+
+    100% {
+        transform: rotate(2835deg);
+    }
+}
+
+ .zoom {
+    animation-name: zoomInOut;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+   .zoom1 {
+    animation-name: zoomInOut;
+    animation-duration: 1.4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+   .zoom2 {
+    animation-name: zoomInOut;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+     .zoom3 {
+      animation-name: zoomInOut;
+      animation-duration: 1.6s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+    }
+
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      20% { transform: translateX(-10px) rotate(-5deg); }
+      40% { transform: translateX(10px) rotate(5deg); }
+      60% { transform: translateX(-10px) rotate(-5deg); }
+      80% { transform: translateX(10px) rotate(5deg); }
+      100% { transform: translateX(0); }
+    }
+
+    .shake-element {
+      animation: shake 0.8s ease infinite;
+    }
+
+.rotating {
+  animation: rotating 9s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

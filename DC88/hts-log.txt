@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 13 May 2024 14:10:17 at https://bigredhevell.com/3856-discovering-the-charm-of-historic-architecture/?ad_id=%7B%7Bad.id%7D%7D&adset_id=%7B%7Badset.id%7D%7D&campaign_id=%7B%7Bcampaign.id%7D%7D&ad_name=%7B%7Bad.name%7D%7D&adset_name=%7B%7Badset.name%7D%7D&campaign_name=%7B%7Bcampaign.name%7D%7D&source=%7B%7Bsite_source_name%7D%7D&placement=%7B%7Bplacement%7D%7D&pid=1478805589710653&cpid=3e01b3cb-08f1-4b9e-9604-9faafe7ff2a0&lpid=4eddb962-537d-4e6a-8f5e-6770feb0c968 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://bigredhevell.com/3856-discovering-the-charm-of-historic-architecture/?ad_id=%7B%7Bad.id%7D%7D&adset_id=%7B%7Badset.id%7D%7D&campaign_id=%7B%7Bcampaign.id%7D%7D&ad_name=%7B%7Bad.name%7D%7D&adset_name=%7B%7Badset.name%7D%7D&campaign_name=%7B%7Bcampaign.name%7D%7D&source=%7B%7Bsite_source_name%7D%7D&placement=%7B%7Bplacement%7D%7D&pid=1478805589710653&cpid=3e01b3cb-08f1-4b9e-9604-9faafe7ff2a0&lpid=4eddb962-537d-4e6a-8f5e-6770feb0c968 -O1 "C:\Users\User\OneDrive\Pictures\DC88\SPINNER\DC88" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:10:18	Warning: 	File not parsed, looks like binary: https://bigredhevell.com/robots.txt
+14:10:34	Error: 	"Bad Request" (400) at link https://rettablewizette.com/d/3e01b3cb-08f1-4b9e-9604-9faafe7ff2a0.js (from https://bigredhevell.com/3856-discovering-the-charm-of-historic-architecture/?ad_id=%7B%7Bad.id%7D%7D&adset_id=%7B%7Badset.id%7D%7D&campaign_id=%7B%7Bcampaign.id%7D%7D&ad_name=%7B%7Bad.name%7D%7D&adset_name=%7B%7Badset.name%7D%7D&campaign_name=%7B%7Bcampaign.name%7D%7D&source=%7B%7Bsite_source_name%7D%7D&placement=%7B%7Bplacement%7D%7D&pid=1478805589710653&cpid=3e01b3cb-08f1-4b9e-9604-9faafe7ff2a0&lpid=4eddb962-537d-4e6a-8f5e-6770feb0c968)
+
+HTTrack Website Copier/3.49-2 mirror complete in 49 seconds : 152 links scanned, 150 files written (9776011 bytes overall) [9226035 bytes received at 188286 bytes/sec], 969138 bytes transferred using HTTP compression in 136 files, ratio 30%, 30.4 requests per connection
+(1 errors, 1 warnings, 0 messages)

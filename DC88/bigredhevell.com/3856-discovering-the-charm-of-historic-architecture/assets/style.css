@@ -1,0 +1,238 @@
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif !important;
+    background-color: white!important;
+}
+
+a {
+    text-align: center;
+}
+
+.page-container {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg {
+    background-image: url(news\ bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vw;
+
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    position: absolute;
+    width: 40%;
+    margin-top: 0vw;
+}
+
+.logo{
+    position: absolute;
+    width: 31%;
+    margin-top: 12.5vw;
+}
+
+.jackpot{
+    position: absolute;
+    width: 31%;
+    margin-top: 15vw;
+}
+
+.jackpot_value{
+    position: absolute;
+    color: #feeda5;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.7vw;
+    margin-top: 18.5vw;
+}
+
+.frame{
+    position: absolute;
+    bottom: -12px;
+    width: 100%;
+    margin-right: -1vw;
+    z-index: 1;
+}
+
+.outer{
+    position: absolute;
+    bottom: 0;
+    width: 46%;
+    margin-bottom: -18vw;
+    margin-left: 1vw;
+}
+
+.inner{
+    position: absolute;
+    bottom: 0;
+    width: 31%;
+    margin-bottom: -10vw;
+    margin-right: -1vw;
+}
+
+.spin{
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    width: 19%;
+    margin-bottom: 2vw;
+    margin-right: -1vw;
+    z-index: 1;
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    box-shadow: 0px 0px 0px #000;
+}
+
+.modal-bg-1 {
+    background-image: url(try-again-pop.html);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vw;
+}
+
+.modal_btn1 {
+    margin: 21vw 0 0vw 0vw;
+    width: 30%;
+    cursor: pointer;
+}
+
+.modal-bg-2 {
+    background-image: url(win-pop.html);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vw;
+}
+
+.modal_btn2 {
+    margin: 21vw 0 0vw 0vw;
+    width: 30%;
+    cursor: pointer;
+}
+
+.timer{
+    color: #921919;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.8vw;
+    margin-top: 0.5vw;
+}
+
+.desktop{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+@media only screen and (max-width:769px) {
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .bg {
+        background-image: url(new\ bg.png);
+        height: 178vw;
+    }
+
+    .header {
+        width: 75%;
+        margin-top: 0vw;
+    }
+
+    .logo {
+        width: 97%;
+        margin-top: 25vw;
+    }
+
+    .jc{
+        position: absolute;
+        width: 62%;
+        margin-top: 36vw;
+        margin-right: 51vw;
+    }
+
+    .zues{
+        position: absolute;
+        width: 55%;
+        margin-top: 38vw;
+        margin-right: -0vw;
+    }
+
+    .jackpot {
+        width: 75%;
+        margin-top: 82vw;
+    }
+
+    .jackpot_value {
+        font-size: 6.9vw;
+        margin-top: 90vw;
+    }
+
+    .outer {
+        width: 105vw;
+        margin-bottom: -39vw;
+        margin-left: 0vw;
+    }
+
+    .inner {
+        width: 74%;
+        margin-bottom: -23vw;
+        margin-right: 0vw;
+    }
+
+    .spin {
+        bottom: 0;
+        width: 45%;
+        margin-bottom: 6vw;
+        margin-right: -1vw;
+    }
+
+    .modal-bg-1 {
+        height: 59vw;
+    }
+
+    .modal_btn1 {
+        margin: 39vw 0 0vw 0vw;
+        width: 56%;
+    }
+
+    .modal-bg-2 {
+        height: 60vw;
+    }
+
+    .modal_btn2 {
+        margin: 40vw 0 0vw 0vw;
+        width: 51%;
+    }
+
+    .timer {
+        margin-top: 1vw;
+        font-size: 2vw;
+    }
+	.frame{
+		bottom: 0px;
+		margin-right: 0;
+	}
+
+}
